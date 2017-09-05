@@ -1,0 +1,1 @@
+io.Source.fromFile("D:\\~IdeaProjects\\Scala\\Chapter9\\input.txt", "UTF-8").mkString.split("""\s+""").filter(_.length >= 12).distinct.foreach(println(_))
